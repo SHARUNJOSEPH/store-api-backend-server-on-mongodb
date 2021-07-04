@@ -36,7 +36,7 @@ mongoose
   .connect(process.env.CONNECTION_STRING, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    dbName: "mean-eshop",
+    dbName: "sj-database",
   })
   .then(() => {
     console.log("Database Connection is ready...");
